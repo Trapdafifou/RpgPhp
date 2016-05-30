@@ -1,10 +1,14 @@
 {
-    "name": "stephanegoyon/rpg-php",
-    "authors": [
-        {
-            "name": "GoyonStephane",
-            "email": "stephane.goyon@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "stephanegoyon/rpg-php",
+  "authors": [
+    {
+      "name": "GoyonStephane",
+      "email": "stephane.goyon@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Game\\": "src/"
+    }
+  }
 }
