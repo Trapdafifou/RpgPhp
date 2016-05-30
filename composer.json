@@ -1,0 +1,10 @@
+{
+    "name": "stephanegoyon/rpg-php",
+    "authors": [
+        {
+            "name": "GoyonStephane",
+            "email": "stephane.goyon@gmail.com"
+        }
+    ],
+    "require": {}
+}
