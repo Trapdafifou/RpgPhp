@@ -3,7 +3,9 @@ namespace Game;
 
 /**
  * Class Character
+ *
  * @package Game
+ * @author: Stephane Goyon <stephane.goyon@gmail.com>
  */
 class Character
 {
