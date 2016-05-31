@@ -13,6 +13,10 @@ class Character
      * @var int
      */
     public $life;
+    /**
+     * @var int
+     */
+    public $damage = 10;
     
     /**
      * Character constructor.
@@ -32,5 +36,15 @@ class Character
     public function sayHello(): string
     {
         return 'Hello';
+    }
+
+    /**
+     * Attack the current target
+     *
+     * @param Character $target
+     */
+    public function attack(Character $target)
+    {
+        $target->life = $target->life - $this->damage;
     }
 }
